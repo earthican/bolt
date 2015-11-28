@@ -1,1 +1,1 @@
-grunt && zip bolt.zip appinfo.json jshintrc src/ wscript -r
+npm install && grunt && zip bolt.zip appinfo.json jshintrc src/ wscript -r

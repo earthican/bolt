@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     webpack: {
       build: {
-        entry: "./dev/bolt.js",
+        entry: "./javascripts/bolt.js",
         output: {
           path: "./src/",
           filename: "bolt.js"
