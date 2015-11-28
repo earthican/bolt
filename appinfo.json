@@ -1,0 +1,22 @@
+{
+    "appKeys": {
+        "AppKeyReady": 0
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Justin Cano",
+    "longName": "Bolt: A Bitcoin Ticker",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Bolt",
+    "uuid": "44a8d0f9-1e1b-46c0-a486-13daee5f890a",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}

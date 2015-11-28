@@ -10,6 +10,11 @@
   "author": "Justin Cano",
   "license": "Apache-2.0",
   "devDependencies": {
-    "lib-bolt": "git+ssh://git@bitbucket.org:jcano001/lib-bolt.git"
+    "grunt": "^0.4.5",
+    "grunt-webpack": "^1.0.11",
+    "lib-bolt": "git+ssh://git@bitbucket.org:jcano001/lib-bolt.git",
+    "matchdep": "^1.0.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
   }
 }
