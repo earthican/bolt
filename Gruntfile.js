@@ -4,9 +4,9 @@ module.exports = function(grunt) {
   grunt.initConfig({
     webpack: {
       build: {
-        entry: "./javascripts/bolt.js",
+        entry: "./src/webapp.js",
         output: {
-          path: "./src/",
+          path: "./www/js",
           filename: "bolt.js"
         }
       }
@@ -14,5 +14,6 @@ module.exports = function(grunt) {
   });
 
   // The development server (the recommended option for development)
+  grunt.registerTask("webapp", ["webpack"]);
   grunt.registerTask("default", ["webpack"]);
 };

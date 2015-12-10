@@ -12,9 +12,13 @@
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-webpack": "^1.0.11",
-    "lib-bolt": "git+ssh://git@bitbucket.org:jcano001/lib-bolt.git",
+    "lib-bolt": "/Users/justincano/Projects/pebble/lib-bolt",
+    "lodash": "^3.10.1",
     "matchdep": "^1.0.0",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "chartist": "^0.9.5"
   }
 }
